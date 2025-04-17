@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <style>
+    *{
+        font-family: sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body{
+        background-color: #1f2d4d;
+    }
+       .Form1{
+        justify-items: center;
+        
+       }
+        .sh{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .Item{
+            align-items: center;
+            padding: 5px 10px;
+            margin-left: 20px;
+        }
+        .head{
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 20px;
+            text-align: center;
+            color: #fff;
+            
+        }
+        .head::first-letter{
+            color: rgb(251 93 93);
+            font-weight: bold;
+        }
+        header{
+            background-color: #0a1a3c;
+            color: #fff;
+            border-bottom: 1px solid #e5e7eb;
+            width: 100%;
+            height: 90px;
+            position: relative;
+        }
+        .header-link{
+            margin-top: 30px;
+            display: inline-block;
+            float:right;
+        }
+        .shakila-name{
+            display: inline-block;
+            font-family:cursive;
+            padding: auto;
+            margin:0 28px;
+        }
+        .shakila-name::first-letter{
+            font-style: italic;
+            color: rgb(251 93 93);
+            font-size: 50px;
+            font-family: cursive;
+        }
+        a:link , a:visited{
+            text-decoration: none; 
+            color: #fff;
+            padding: 10px 10px;
+            margin: 0 28px;
+            text-align: center;
+            font-size: .875rem;
+            line-height: 110%;
+        }
+        a:active,a:hover{
+            background-color: rgb(251 93 93);
+            border-radius: 25%;
+            color: #f7f7f7;
+        }
+        #emailAdress:link , #emailAdress:visited{
+            color: #fff;
+            font-size: 20px;   
+        }
+        #emailAdress:active,#emailAdress:hover{
+            background-color: #1f2d4d;
+            border-radius:0;
+        }
+        footer{
+            justify-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="shakila-name">Shakila Sabury</h1>
+        <nav class="header-link">
+            <a href="index.html" target="_self">Home</a>
+            <a href="about-me.html" target="_blank">About Me</a>
+            <a href="gallery.html" target="_blank">Gallery</a>
+            <a href="contact.html" target="_blank" id="contact">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+    <h1 class="head">Connect with us.</h1>
+      <form action="Thank.html" class="Form1">
+        <fieldset style="width:680px; height: 450px; background-color:#0a1a3c; border: 0 solid #e5e7eb; color: #fff; font-size: 15px;">
+            <h3>Contact Form</h3><br>
+            <div class="sh">
+            <div class="Item">       
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="Your Full Name" required>
+            </div>
+
+            <div class="Item">
+                <label for="Father-name">Father Name</label><br>
+                <input type="text" placeholder="Your Father-Name" required>
+            </div>
+
+            <div class="Item">
+                <label for="last-name">Last Name</label><br>
+                <input type="text" placeholder="Your Last-Name"required>
+            </div>
+
+            <div class="Item">
+                <label for="Number">Phone Number</label><br>
+                <input type="number" placeholder="Number" required><br><br>
+            </div>
+            <div class="Item">   
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="Your Email" required><br><br>
+            </div>
+            <div class="Item" style="display: inline-flex;">
+                <label for="Gender">Gender</label><br>
+                <input type="radio" id="Famle" name="Gender" value="Famle" required>
+                <label for="Famle">Famle</label><br>
+                <input type="radio"  id="Male" name="Gender" value="Male" required>
+                <label for="Male" >Male</label><br><br>
+            </div>
+            <div class="Item">  
+                <label>Date of Birthday</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime" required><br><br>
+            </div>
+            <div class="Item">
+                <label for="select">choose your Favorite season</label>
+                <select name="fav-season" id="season" required>
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Autumn">Autumn</option>
+                    <option value="Winter">Winter</option>
+                </select><br><br>
+            </div>
+         <!--   <div class="Item">    
+                <label for="">check box</label><br>
+                <input type="checkbox" value="1www">
+                <label>daas</label><br>
+                <input type="checkbox" value="1www">
+                <label>daas</label><br>
+                <input type="checkbox" value="1www">
+                <label>daas</label><br>
+            </div>
+            -->
+            <div class="Item">    
+                <label>Massege</label><br>
+                <textarea name="message" rows="10" cols="50" required></textarea><br><br>
+            </div>
+            <div class="Item" style="margin-top: 125px;">
+                <input type="submit" value="Send Massage" required style="padding: 15px 20px; margin-left: 50px; background-color: rgb(251 93 93);
+                color: #f7f7f7;
+                border:none;"><br><br>
+            </div>
+        </div>   
+        </fieldset>
+      </form>
+    </main> 
+      <hr style="margin-top:30px;">
+      <footer style="background-color: #0a1a3c; padding: 30px ;">
+      <p><a href="mailto:sabury7@gmail.com" id="emailAdress">Send Email📩</a></p>
+    </footer>  
+</body>
+</html>

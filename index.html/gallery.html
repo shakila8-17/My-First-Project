@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+            *{
+                margin: 0;
+                font-family: sans-serif;
+                box-sizing: border-box;
+            }
+            header{
+                border-bottom:1px solid #e5e7eb;;
+                background-color: #042250;
+                width: 100%;
+                height: 90px;
+                position: relative;
+            }
+            .header-link{
+                margin-top: 30px;
+                display: inline-block;
+                float:right;
+            }
+            .shakila-name{
+                display: inline-block;
+                color: #fff;
+                font-family:cursive;
+                padding: auto;
+                margin:0 28px;
+            }
+            .shakila-name::first-letter{
+                font-style: italic;
+                color: rgb(251 93 93);
+                font-size: 50px;
+                font-family: cursive;
+            }
+            a:link , a:visited{
+                text-decoration: none; 
+                color: #fff;
+                padding: 10px 10px;
+                margin: 0 28px;
+                text-align: center;
+                font-size: .875rem;
+                line-height: 110%;
+            }
+            a:active,a:hover{
+                background-color: rgb(251 93 93);
+                border-radius: 25%;
+                color: #f7f7f7;
+            }
+        body{
+            background-color: #0a1a3c;
+        }
+        .contener{
+            margin-top: 50px;
+        }
+        .h1-of-contener{
+            color: #fff;
+            font-size: 4.375rem;
+            margin-bottom: 30px;
+            padding: 10px 50px;
+        }    
+    
+        .allphoto{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .photos{
+            text-align: center;
+        }
+        .card-photo{
+            height: 300px;
+            width: 280px;
+            border-radius: 10%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+        .photos h3 , p{
+            color: #fff;
+            line-height: 1.5;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1 class="shakila-name">Shakila Sabury</h1>
+        <nav class="header-link">
+            <a href="index.html" target="_self">Home</a>
+            <a href="about-me.html" target="_blank">About Me</a>
+            <a href="gallery.html" target="_blank">Gallery</a>
+            <a href="contact.html" target="_blank" id="contact">Contact Me</a>
+        </nav>
+    </header>
+    <article class="contener">
+        <h1 class="h1-of-contener">My Gallery</h1>
+
+        <div class="allphoto">
+            <div class="photos">
+                <img src="freshta.jpg" class="card-photo">
+                <h3>Fereshteh Forough</h3>
+                <p>Founder & Executive Director</p>
+            </div>
+        
+            <div class="photos">
+                <img src="johan.jpg" class="card-photo">
+                <h3>John Lilic</h3>
+                <p> Co-Founder - Treasurer</p>
+            </div>
+            
+            <div class="photos">
+                <img src="melanie.jpg" class="card-photo">
+                <h3>Melanie Shapiro</h3>
+                <p>Board Member - Secretary</p>
+            </div>
+
+            
+            <div class="photos">
+                <img src="casey.webp" class="card-photo">
+                <h3>Casey Rickles </h3>
+                <p> Chief of Staff</p>
+            </div>
+
+             <div class="photos">
+                <img src="Hasib.webp" class="card-photo">
+                <h3>Hasib Rassa</h3>
+                <p>Project Manager</p>
+            </div>
+
+            <div class="photos">
+                <img src="Muzda.webp" class="card-photo">
+                <h3>Muzhdeh Jagharagi</h3>
+                <p>Project Officer</p>
+            </div>
+             <div class="photos">
+                <img src="wajihaa.jpg" class="card-photo">
+                <h3>Wajiha Naizi</h3>
+                <p>FullStackDeveloper</p>
+             </div>
+
+        </div>
+
+    </article>
+    
+</body>
+</html>

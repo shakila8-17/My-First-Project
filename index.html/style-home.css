@@ -1,0 +1,95 @@
+*{
+    
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    border-bottom: 1px solid #e5e7eb;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    background-color: #0a1a3c;
+    color: #fff;
+}
+.header-link{
+    margin-top: 30px;
+    display: inline-block;
+    float:right;
+    
+}
+.shakila-name{
+    display: inline-block;
+    font-family:cursive;
+    padding: auto;
+    margin:0 28px;
+}
+.shakila-name::first-letter{
+    font-style: italic;
+    color: rgb(251 93 93);
+    font-size: 50px;
+    font-family: cursive;
+}
+a:link , a:visited{
+    text-decoration: none; 
+    color: #fff;
+    padding: 10px 10px;
+    margin: 0 28px;
+    text-align: center;
+    font-size: .875rem;
+    line-height: 110%;
+}
+a:active,a:hover{
+    background-color: rgb(251 93 93);
+    border-radius: 25%;
+    color: #f7f7f7;
+}
+.first-info{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.bio{
+    display: inline-block;
+    margin: 80px 0 0 80px;
+    
+}
+.continer{
+    position: relative;
+}
+.My-photo{
+    width: 550px;
+    height: 500px;
+    float: right;
+    margin-top: 80px;
+}
+.top{
+    font-size: 12px;
+    color: rgb(251 93 93);
+    padding: 10px 0;
+}
+.mypragragh{
+    color: #5f5f5f;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.first-list{
+    margin:20px 0;
+}
+body{
+    width: 100%;
+}
+.social-icons {
+    margin:10px 50px;
+  }
+.social-icons a{
+    color:rgb(251 93 93);
+    background-color:#fff;
+    border: rgb(251 93 93) solid 1px;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.social-icons a:hover{
+    background-color:rgb(251 93 93);
+    color: #fff;
+}
